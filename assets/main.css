@@ -15,8 +15,8 @@ html {
 
 @media (prefers-reduced-motion) {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         transition: none!important
     }
 }
@@ -390,7 +390,7 @@ pre {
         position: relative
     }
     .md-typeset abbr[title]:-webkit-any(:focus,
-    :hover):after {
+     :hover):after {
         background-color: var(--md-default-fg-color);
         border-radius: .1rem;
         box-shadow: var(--md-shadow-z3);
@@ -407,7 +407,7 @@ pre {
         width: auto
     }
     .md-typeset abbr[title]:-moz-any(:focus,
-    :hover):after {
+     :hover):after {
         background-color: var(--md-default-fg-color);
         border-radius: .1rem;
         box-shadow: var(--md-shadow-z3);
@@ -424,31 +424,31 @@ pre {
         width: auto
     }
     [dir=ltr] .md-typeset abbr[title]:-webkit-any(:focus,
-    :hover):after {
+     :hover):after {
         left: 0
     }
     [dir=ltr] .md-typeset abbr[title]:-moz-any(:focus,
-    :hover):after {
+     :hover):after {
         left: 0
     }
     [dir=ltr] .md-typeset abbr[title]:is(:focus,
-    :hover):after {
+     :hover):after {
         left: 0
     }
     [dir=rtl] .md-typeset abbr[title]:-webkit-any(:focus,
-    :hover):after {
+     :hover):after {
         right: 0
     }
     [dir=rtl] .md-typeset abbr[title]:-moz-any(:focus,
-    :hover):after {
+     :hover):after {
         right: 0
     }
     [dir=rtl] .md-typeset abbr[title]:is(:focus,
-    :hover):after {
+     :hover):after {
         right: 0
     }
     .md-typeset abbr[title]:is(:focus,
-    :hover):after {
+     :hover):after {
         background-color: var(--md-default-fg-color);
         border-radius: .1rem;
         box-shadow: var(--md-shadow-z3);
@@ -1952,15 +1952,15 @@ svg) {
         color: var(--md-typeset-a-color)
     }
     .md-nav--primary .md-nav__item--active>.md-nav__link:-webkit-any(:focus,
-    :hover) {
+     :hover) {
         color: var(--md-accent-fg-color)
     }
     .md-nav--primary .md-nav__item--active>.md-nav__link:-moz-any(:focus,
-    :hover) {
+     :hover) {
         color: var(--md-accent-fg-color)
     }
     .md-nav--primary .md-nav__item--active>.md-nav__link:is(:focus,
-    :hover) {
+     :hover) {
         color: var(--md-accent-fg-color)
     }
     .md-nav--primary .md-nav__link {
@@ -2102,15 +2102,15 @@ svg) {
         display: none
     }
     .md-nav__toggle:-webkit-any(:checked,
-    :indeterminate)~.md-nav {
+     :indeterminate)~.md-nav {
         display: block
     }
     .md-nav__toggle:-moz-any(:checked,
-    :indeterminate)~.md-nav {
+     :indeterminate)~.md-nav {
         display: block
     }
     .md-nav__toggle:is(:checked,
-    :indeterminate)~.md-nav {
+     :indeterminate)~.md-nav {
         display: block
     }
     .md-nav__item--nested>.md-nav>.md-nav__title {
@@ -3760,7 +3760,7 @@ svg) {
     .md-annotation__index [data-md-annotation-id]:before {
         content: "+"
     }
-    :focus-within>.md-annotation__index [data-md-annotation-id]:before {
+     :focus-within>.md-annotation__index [data-md-annotation-id]:before {
         transform: scale(1.25) rotate(45deg)
     }
 }
@@ -4606,43 +4606,43 @@ summary):before {
 .md-typeset :-webkit-any(.admonition,
 details):-webkit-any(.info,
 .todo) {
-    border-color: #00b8d4
+    border-color: #98d400
 }
 
 .md-typeset :-moz-any(.admonition,
 details):-moz-any(.info,
 .todo) {
-    border-color: #00b8d4
+    border-color: #98d400
 }
 
 .md-typeset :is(.admonition,
 details):is(.info,
 .todo) {
-    border-color: #00b8d4
+    border-color: #98d400
 }
 
 .md-typeset :-webkit-any(.info,
 .todo)>:-webkit-any(.admonition-title,
 summary) {
-    background-color: rgba(0, 184, 212, .1)
+    background-color: rgba(152, 212, 0, 0.1)
 }
 
 .md-typeset :-moz-any(.info,
 .todo)>:-moz-any(.admonition-title,
 summary) {
-    background-color: rgba(0, 184, 212, .1)
+    background-color: rgba(152, 212, 0, 0.1)
 }
 
 .md-typeset :is(.info,
 .todo)>:is(.admonition-title,
 summary) {
-    background-color: rgba(0, 184, 212, .1)
+    background-color: rgba(152, 212, 0, 0.1)
 }
 
 .md-typeset :-webkit-any(.info,
 .todo)>:-webkit-any(.admonition-title,
 summary):before {
-    background-color: #00b8d4;
+    background-color: #98d400;
     -webkit-mask-image: var(--md-admonition-icon--info);
     mask-image: var(--md-admonition-icon--info);
     -webkit-mask-repeat: no-repeat;
@@ -4654,7 +4654,7 @@ summary):before {
 .md-typeset :-moz-any(.info,
 .todo)>:-moz-any(.admonition-title,
 summary):before {
-    background-color: #00b8d4;
+    background-color: #98d400;
     mask-image: var(--md-admonition-icon--info);
     mask-repeat: no-repeat;
     mask-size: contain
@@ -4663,7 +4663,7 @@ summary):before {
 .md-typeset :is(.info,
 .todo)>:is(.admonition-title,
 summary):before {
-    background-color: #00b8d4;
+    background-color: #98d400;
     -webkit-mask-image: var(--md-admonition-icon--info);
     mask-image: var(--md-admonition-icon--info);
     -webkit-mask-repeat: no-repeat;
