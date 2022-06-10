@@ -1,0 +1,2 @@
+Disallow: /404.html
+Disallow: /index.html
