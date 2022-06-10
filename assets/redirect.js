@@ -1,10 +1,10 @@
 // gitbook old links redirect
-var PREFIX_EN = "/v/english";
-var PREFIX_RU = "/v/russkii";
+var PREFIX_ENG = "/lang/english";
+var PREFIX_RU = "/lang/russkii";
 var pathname = window.location.pathname;
 
-if (pathname.startsWith(PREFIX_EN)) {
-    window.location.pathname = "/en" + pathname.substr(PREFIX_EN.length);
+if (pathname.startsWith(PREFIX_ENG)) {
+    window.location.pathname = "/en" + pathname.substring(PREFIX_EN.length);
 } else if (pathname.startsWith(PREFIX_RU)) {
-    window.location.pathname = pathname.substr(PREFIX_EN.length);
+    window.location.pathname = pathname.substring(PREFIX_ENG.length);
 }
